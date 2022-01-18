@@ -1,10 +1,7 @@
-# GraphCMS Headless Blog
-### [Live Site](https://nextjs-plum-five-51.vercel.app/)
+# Ilham Blog Headless Blog
+### [Live Site](https://ilhamblog.netlify.app/)
 
-![GraphCMS Headless Blog](https://i.ibb.co/NmnJnKD/image.png)
-
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+![Ilham Blog Headless Blog](https://media.graphcms.com/gFqXJk4TayLHMjU02PLO)
 
 ## Introduction
 This is a code repository for the corresponding video tutorial. 

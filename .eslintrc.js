@@ -1,7 +1,22 @@
 module.exports = {
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  },
+  "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [2, "tab", { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "no-tabs": 0,
+        "react/prop-types": 0,
+        "react/jsx-indent": [2, "tab"],
+        "react/jsx-indent-props": [2, "tab"],
+    },
   env: {
     browser: true,
     es2021: true,
+    "node": true
   },
   extends: [
     'plugin:react/recommended',
@@ -27,8 +42,8 @@ module.exports = {
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
     'max-len': [
-      2,
-      250,
+      5,
+      350,
     ],
     'no-multiple-empty-lines': [
       'error',
