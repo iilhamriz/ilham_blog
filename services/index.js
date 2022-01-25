@@ -203,7 +203,7 @@ export const getFeaturedPosts = async () => {
 
   const result = await request(graphqlAPI, query);
 
-  return result.posts;
+  return result.posts.reverse();
 };
 
 export const submitComment = async (obj) => {
@@ -252,5 +252,5 @@ export const getRecentPosts = async () => {
   `;
   const result = await request(graphqlAPI, query);
 
-  return result.posts;
+  return result.posts.reverse();
 };
